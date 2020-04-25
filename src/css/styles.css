@@ -10,7 +10,7 @@
     --linkedin:         #007bb5;
     --twitter:          #1da1f2;
     --github:           #24292e;
-    --tumbrl:           #35465d;
+    --tumblr:           #35465d;
 
     --default-font:      'Manrope', sans-serif;
 }
@@ -182,7 +182,7 @@ a{
     transition: 0.2s ease;
 }
 .nav-grid-element-fourth:hover{
-    background-color: var(--tumbrl);
+    background-color: var(--tumblr);
     transition: 0.2s ease;
 }
 
