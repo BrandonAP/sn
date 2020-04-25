@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <nav class="navigation-bar-navbar" id="navbar" data-controller="Navigation" role="navbar">
+        <div class="logo-toggle-container">
+            <a href="" class="wordmark-link">SocialNav</a>
+
+            <button class="burger-toggle-button" data-toggle="collapse" role="toggle">
+                <div class="icon-container"><span class="span-burger-icon"></span></div>
+            </button>
+        </div>
+
+        <div class="options-nav-container">
+            <section class="navbar-grid">
+                <div class="nav-grid-element nav-grid-element-first"><a href="https://www.linkedin.com" target="_blank"><img src="src/images/png/linkedin-cover.png" alt="linkedin"></a></div>
+
+                <div class="nav-grid-element nav-grid-element-second"><a href="https://www.twitter.com" target="_blank"><img src="src/images/png/twitter-cover.png" alt="twitter"></a></div>
+
+                <div class="nav-grid-element nav-grid-element-third"><a href="https://www.github.com" target="_blank"><img src="src/images/png/github-cover.png" alt="github"></a></div>
+
+                <div class="nav-grid-element nav-grid-element-fourth"><a href="https://www.tumblr.com" target="_blank"><img src="src/images/png/tumblr-cover.png" alt="tumblr"></a></div>
+            </section>
+        </div>
+    </nav>
+
+    <div class="filling"></div>
+
+    <script type="text/javascript" src="src/jquery/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="src/js/script-burger-toggle-mobile-menu.js"></script>
+</body>
+</html>
